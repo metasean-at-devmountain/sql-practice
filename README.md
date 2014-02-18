@@ -1,14 +1,25 @@
+
+    
 sql-practice
 ============
 
-Using this following SQL Fiddle: http://sqlfiddle.com/#!2/860fd3/2
+
+Start with this schema:
+
+`CREATE TABLE posts 
+	(
+     id int auto_increment primary key, 
+     title varchar(75), 
+     body text(30)
+    );`
+    
 
 References:
 * MySQL field data types: http://www.tutorialspoint.com/mysql/mysql-data-types.htm
 * MySQL `NOW()`: http://dev.mysql.com/doc/refman/5.1/en/date-and-time-functions.html#function_now
 * Finding the difference between two dates in MySQL: http://dev.mysql.com/doc/refman/5.1/en/date-and-time-functions.html#function_datediff
 
-Complete the following tasks:
+Use a MySQL Client Query window to complete the following tasks:
 
 1. Add a column to represent when this post was created
 2. Add a column to represent what the current status is of the post (draft, publish, archive)
