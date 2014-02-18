@@ -1,17 +1,14 @@
-
     
 sql-practice
 ============
 
+Create a new database called `sql_practice` and start with this schema:
 
-Start with this schema:
-
-`CREATE TABLE posts 
-	(
+`CREATE TABLE posts (
      id int auto_increment primary key, 
      title varchar(75), 
      body text(30)
-    );`
+);`
     
 
 References:
