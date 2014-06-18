@@ -7,7 +7,7 @@ Create a new database called `sql_practice` and start with this schema:
 `CREATE TABLE posts (
      id int auto_increment primary key, 
      title varchar(75), 
-     body text(30)
+     body text
 );`
     
 
